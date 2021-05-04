@@ -341,6 +341,41 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Bicycle types</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BMX</fullName>
+                    <default>false</default>
+                    <label>BMX</label>
+                </value>
+                <value>
+                    <fullName>Mountain</fullName>
+                    <default>false</default>
+                    <label>Mountain</label>
+                </value>
+                <value>
+                    <fullName>Road</fullName>
+                    <default>false</default>
+                    <label>Road</label>
+                </value>
+                <value>
+                    <fullName>Huffy</fullName>
+                    <default>false</default>
+                    <label>Huffy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
